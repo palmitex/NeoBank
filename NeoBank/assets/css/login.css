@@ -1,0 +1,67 @@
+main{
+    display: flex;
+    background-color: var(--Black);/*banner temporario*/
+    width: auto;
+    height: 800px;
+    align-items: center;
+   
+
+}
+
+.card{
+    height: 700px;
+    width: 550px;
+    background-color: var(--White);
+    margin-left: 1300px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+
+.card h1{
+    text-align: center;
+    margin-top: 300px;
+}
+
+
+.card form{
+    margin-left: 80px;
+    margin-right: 80px; 
+    margin-top: 10px;
+}
+
+.card form input{
+    margin-top: 10px;
+    border-radius: 12px;
+    height: 25px;
+    width: 400px;
+    text-align: center;
+    background-color: var(--White);
+    border-color: var(--Black);
+   
+    
+   
+}
+
+
+.card button{
+    height: 40px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: var(--White);
+    border-radius: 12px;
+    border-color: var(--DarkBlue);
+    background-color: var(--DarkBlue);
+    cursor: pointer;
+
+}
+
+.card a{
+    margin-left: 120px;
+    text-decoration: none;
+   
+
+    
+}
