@@ -28,7 +28,7 @@ header {
     width: auto;
     display: flex;
     align-items: center;
-    background-color: var(--Blue2);
+    background-color: var(--White);
     padding-left: 80px; 
     padding-right: 80px;
    
@@ -41,7 +41,7 @@ header div{
 
 header h1{/*futuro img*/
     padding-right: 40px;
-    color: white;
+    color: var(--Gray);
 
 
 }
@@ -56,7 +56,7 @@ header nav ul li{
 }
 
 header a{
-    color: var(--White);
+    color: var(--Gray);
     font-size: 20px;
     text-decoration: none;
    
@@ -94,6 +94,5 @@ footer div{
     align-items: center;
     background-color: wheat;
 }
-
 
 
