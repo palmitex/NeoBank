@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media (max-width: 480px) {
+    /* Ajustes para a largura do container */
+    .container {
+        margin-top: 100px;
+        width: 100%; 
+        height: auto;
+        position: relative;
+        top: 50%;
+    }
+
+    
+    h1 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    /* Estilização da tabela */
+    .historico-tabela th,
+    .historico-tabela td {
+        padding: 15px; 
+    }
+
+    .historico-tabela td {
+        font-size: 24px; 
+    }
+
+    .historico-tabela th {
+        font-size: 24px;
+    }
+
+    /* Botão */
+    .btn-azul {
+        width: 80%; 
+    }
+    a {
+        padding-left: 150px;
+    }
+}
+
+

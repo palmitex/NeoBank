@@ -1,0 +1,78 @@
+
+main{
+    width: 100%;
+}
+.principal {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+}
+
+/* estilização do lado esquerdo */
+.esquerdo {
+    flex: 1;
+    padding: 40px;
+    width: 50%;
+    background-image: url(../img/OIP.jfif);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: bottom center;  
+}
+.esquerdo h1 {
+    padding-top: 60px;
+    font-size: 50px;
+    color: #f5f5f5;
+}
+.esquerdo a {
+    color: #0088dc;
+    text-decoration: none;
+}
+
+/* estilização do lado direiro */
+
+.direito {
+    flex: 1;
+    padding: 40px;
+    position: relative;
+    width: 50%;
+    align-content: center;
+}
+
+.direito label{
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.direito form {
+    display: flex;
+    flex-direction: column;
+}
+
+.direito form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* estilização dos botões */
+.btn-azul {
+    height: 40px;
+    margin-bottom: 20px;
+    margin: 30px 0 40px;
+}
+
+form button{
+    font-size: 16px;
+}
+
+.box-btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-saibamais{
+    font-size: 18px;
+}

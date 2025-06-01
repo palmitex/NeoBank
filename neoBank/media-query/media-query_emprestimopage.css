@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1600px) {
+    .carousel-container {
+        padding-left: 230px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .Titulo h1 {
+        font-size: 30px; 
+        
+    }
+    .left-section {
+        width: 100%;
+        padding-left: 15px;
+    }
+    .left-section h3{
+        font-size: 24px;
+    }
+    .left-section p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .carousel {
+        flex-direction: column; 
+        align-items: center;
+        overflow-x: visible; 
+        padding: 0; 
+    }
+    .carousel-container {
+        padding-left: 290px; 
+    }
+    .tipos {
+        height: auto; 
+    }
+}
+
+@media (max-width: 768px) {
+    .Titulo h1 {
+        font-size: 40px;
+    }
+
+    .motivos h2 {
+        font-size: 24px;
+    }
+
+    .tipos p, .tipos h3 {
+        font-size: 16px;
+        padding-right: 150px;
+    }
+
+    .Ctn {
+        padding: 15px;
+    }
+    .left-section p{
+        font-size: 16px;    
+    }
+}
+
+/* Estilo para celulares */
+@media (max-width: 480px) {
+    .Titulo h1 {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Titulo p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .motivos h2 {
+        font-size: 20px;
+    }
+
+    .carousel {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center;
+        overflow-x: visible; /* Permite exibição completa dos cartões */
+        padding: 0; /* Remove padding extra */
+    }
+    .carousel-container {
+        position: relative;
+        left: 70%; /* Remove padding extra */
+    }
+    .tipos {
+        height: auto; /* Ajusta altura automática */
+    }
+
+    .Ctn {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .left-section{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .left-section h3 {
+        font-size: 18px;
+    }
+
+    .left-section p {
+        font-size: 14px; 
+    }
+    
+    .simulator-image {
+        margin-top: 30px;
+        width: 210px;
+        height: 120px;
+    }
+}

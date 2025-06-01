@@ -1,0 +1,32 @@
+<svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="0.5" width="50" height="50" rx="25" fill="#F1F6FA"/>
+<g filter="url(#filter0_b_1423_145)">
+<ellipse cx="18.1847" cy="25.3165" rx="10.8458" ry="10.8458" fill="#0088DC" fill-opacity="0.3"/>
+</g>
+<g filter="url(#filter1_b_1423_145)">
+<path d="M42.4787 25.3165C42.4787 31.3064 37.6229 36.1623 31.6329 36.1623C25.6429 36.1623 20.7871 31.3064 20.7871 25.3165C20.7871 19.3265 25.6429 14.4707 31.6329 14.4707C37.6229 14.4707 42.4787 19.3265 42.4787 25.3165Z" fill="#0088DC" fill-opacity="0.7"/>
+</g>
+<g filter="url(#filter2_b_1423_145)">
+<path d="M24.9085 16.8063C22.3979 18.7927 20.7871 21.8665 20.7871 25.3165C20.7871 28.7664 22.3979 31.8402 24.9085 33.8266C27.4191 31.8402 29.0299 28.7664 29.0299 25.3165C29.0299 21.8665 27.4191 18.7927 24.9085 16.8063Z" fill="#0088DC" fill-opacity="0.6"/>
+</g>
+<defs>
+<filter id="filter0_b_1423_145" x="-21.7278" y="-14.596" width="79.8248" height="79.8249" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="14.5333"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1423_145"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1423_145" result="shape"/>
+</filter>
+<filter id="filter1_b_1423_145" x="-8.27959" y="-14.596" width="79.8248" height="79.8249" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="14.5333"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1423_145"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1423_145" result="shape"/>
+</filter>
+<filter id="filter2_b_1423_145" x="-8.27959" y="-12.2604" width="66.3766" height="75.1538" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="14.5333"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1423_145"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1423_145" result="shape"/>
+</filter>
+</defs>
+</svg>

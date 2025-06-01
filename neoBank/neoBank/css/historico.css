@@ -1,0 +1,89 @@
+/* estilização geral do corpo */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: max-content;
+}
+
+.container-hist {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    width: max-content;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--Blue2);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.container-title {
+    width: 100%;
+    justify-items: center;
+}
+
+/* estilização da tabela */
+
+.historico-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.historico-tabela th,
+.historico-tabela td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+.historico-tabela td {
+    font-size: 18px;
+}
+
+.historico-tabela th {
+    background-color: #0088dc;
+    color: white;
+    font-size: 20px;
+
+}
+
+.historico-tabela tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.historico-tabela tr:hover {
+    background-color: #f1f1f1;
+}
+
+.no-transacoes {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+
+/* botão */
+.btn-azul {
+    height: 40px;
+    width: 300px;
+    margin: 40px 0 60px;
+}

@@ -1,0 +1,240 @@
+main{
+    display: flex;
+}
+body {
+    height: 100vh;
+    justify-items: center;
+    align-content: center;
+    background-color: #F1F6FA;
+
+}
+
+label {
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: 2px solid #0088dc;
+    box-shadow: 8px 8px 8px rgba(41, 83, 138, 0.2);
+    width: 400px;
+    height: 80vh;
+    text-align: center;
+}
+
+/* Título e saldo */
+.container h1 {
+    color: #000000;
+    margin-bottom: 10px;
+    width: max-content;
+}
+
+.container-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--Blue2);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eye-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/* botão de voltar */
+.button-saibamais {
+    font-size: 18px;
+    height: min-content;
+    margin-right: 40px;
+}
+
+.button-saibamais img {
+    margin: 0 10px 0 0;
+
+}
+
+/* Display do valor do saque */
+#valor-display {
+    width: 90%;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+/* Teclado numérico */
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.teclado button {
+    height: 40px;
+    background-color: #0088dc;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.teclado button:hover {
+    background-color: #0088dc;
+}
+
+.teclado button img {
+    height: max-content;
+}
+
+/* Campo de senha */
+#campo-senha {
+    margin-top: 20px;
+}
+
+.container input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+/* Botão de confirmação */
+.btn-azul {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+}
+
+/* Mensagem de erro */
+.erro {
+    color: #ff3333;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+
+/* responsividade */
+@media screen and (max-width: 1500px){
+    body{
+        background-color: white;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        border: none;
+        box-shadow: none;
+        display: flex;
+        align-items: center;
+        padding: 12px;
+    }
+
+    #campo-valor{
+        width: 70%;
+    }
+
+    .container h1{
+        font-size: 50px;
+    }
+
+    .container p{
+        font-size: 20px;
+    }
+
+    .teclado{
+        margin-top: 50px;
+    }
+
+    .teclado button{
+        height: 70px;
+        width: 100%;
+    }
+
+    #valor-display{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    body{
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+    }
+    .container{
+        position: relative;
+        top:500px;
+
+    }
+    .container h1{
+        font-size: 60px;
+    }
+    input{
+        height: 50px;
+    }
+    .container p{
+        font-size: 30px;
+    }
+    .teclado button{
+        height: 100px;
+    }
+    #campo-chave input[type="text"]{
+        height: 70px;
+        
+    }
+    #campo-chave button{
+        height: 70px;
+        
+    }
+    #campo-chave label{
+        font-size: 30px;
+    }
+    #campo-valor{
+        width: 100%;
+    }
+}

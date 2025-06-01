@@ -1,0 +1,212 @@
+
+/* estilização geral do corpo do site */
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+/* estilização de textos e tilulos */
+p, a, h1, h2, h3, h6, li {
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*Paleta de Cores*/ 
+
+:root {
+    --Black: #010306;
+    --Blue1: #4682b4;
+    --Blue2: #0088dc;
+    --White: #ffff;
+    --Gray: #3a404a;
+    
+}
+
+/* estilização dos botões do site */
+
+
+/* "saiba mais" azul */
+.button-saibamais a {
+    text-decoration: none;
+    color: #0088dc;
+}
+
+.button-saibamais {
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    color: #0088dc;
+    position: relative;
+    transition: 0.5s ease;
+    width: max-content;
+    text-align: left;
+}
+
+.button-saibamais::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background-color: #0088dc;
+    transition: 0.5s ease;
+}
+
+
+.button-saibamais:hover::before {
+    width: 100%;
+}
+
+.button-saibamais img {
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* "saiba mais" branco */
+.button-saibamaisBranco a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.button-saibamaisBranco {
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+    transition: 0.5s ease;
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.button-saibamaisBranco::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+
+
+.button-saibamaisBranco:hover::before {
+    width: 100%;
+}
+
+.button-saibamaisBranco img {
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* botãp saiba mais preto */
+.button-saibamaisPreto a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.button-saibamaisPreto {
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    color: #000000;
+    position: relative;
+    transition: 0.5s ease;
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.button-saibamaisPreto::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+
+
+.button-saibamaisPreto:hover::before {
+    width: 100%;
+}
+
+.button-saibamaisPreto img {
+    height: 20px;
+    margin-left: 10px;
+}
+
+/* botão azul */
+.btn-azul button{
+    cursor: pointer;
+
+}
+
+.btn-azul {
+    background-color: #fff;
+    color: #0088dc;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px solid #0088dc;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.btn-azul:hover {
+    transition: 300ms;
+    border: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #0088dc;
+    color: #fff;
+}
+
+
+/* estilização do container "ainda tem dúvidas?" / "contato" */
+.container-duvidas {
+    width: 75%;
+    border-radius: 8px;
+    background-color: #3a404a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.title-duv,
+.title2-duv {
+    color: #fff;
+}
+
+.title-duv {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+
+.subtitle-duv1,
+.subtitle-duv2 {
+    color: #9da4ad;
+    margin: 5px 0 0;
+}
+
+.subtitle-duv1 {
+    font-size: 18px;
+}
+

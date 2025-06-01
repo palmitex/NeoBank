@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* Para telas até 1024px (tablets) */
+@media (max-width: 1024px) {
+    .esquerdo, .direito {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .esquerdo h1 {
+        font-size: 40px;
+    }
+
+    .direito form input {
+        font-size: 14px;
+    }
+
+    .btn-azul {
+        height: 35px;
+        font-size: 14px;
+    }
+    .box-btns {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Para telas até 768px (tablets pequenos e smartphones grandes) */
+@media (max-width: 768px) {
+    .esquerdo {
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+    }
+
+    .esquerdo h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .direito {
+        padding: 10px;
+    }
+
+    .direito form input {
+        font-size: 14px;
+    }
+
+    form button {
+        font-size: 14px;
+    }
+
+    .box-btns {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* Para telas até 480px (smartphones) */
+@media (max-width: 480px) {
+     .direito {
+        width: 100%;
+        padding: 10px;
+        text-align:left;
+    }
+    .esquerdo {
+        display: none;
+    }
+
+    .direito form input {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .btn-azul {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    form button {
+        font-size: 12px;
+    }
+
+    .box-btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+} 

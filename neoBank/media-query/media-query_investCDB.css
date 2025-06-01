@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px; /* Espaçamento reduzido */
+    }
+
+    .investimento-form {
+        width: 84%;
+        padding: 15px;
+    }
+
+    .investimento-form label {
+        font-size: 14px;
+    }
+
+    .investimento-form select, .investimento-form input[type="number"] {
+        font-size: 14px;
+        padding: 10px; /* Padding ajustado para telas menores */
+    }
+
+    .investimento-form button[type="submit"] {
+        font-size: 14px;
+        padding: 12px; /* Ajuste de padding */
+    }
+
+    table {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    table th, table td {
+        padding: 8px; /* Ajuste de padding */
+    }
+
+    .no-investments {
+        font-size: 14px;
+    }
+
+    .error-message {
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+}

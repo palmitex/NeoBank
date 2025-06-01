@@ -1,0 +1,232 @@
+/* estilização do corpo do site */
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: #0088dc;
+}
+
+main {
+    margin: 130px 0;
+    width: 75%;
+    justify-items: center;
+}
+
+
+/* titulo e banner */
+.titulo {
+    justify-items: center;
+    width: 90%;
+}
+
+.titulo h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #000000;
+    width: 75%;
+    margin-top: 70px;
+}
+
+.titulo p {
+    font-size: 20px;
+}
+
+.banner{
+    width: 700px;
+}
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* estilização da 1° seção */
+.motivos h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+
+/* Estilos gerais para o carrossel */
+.carousel {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-container:first-child{
+    margin-left: 900px;
+}
+
+.icone{
+    width: 64px;
+}
+
+
+.tipos {
+    border-radius: 10px;
+    margin: 20px 25px 20px 25px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.tipos p {
+    padding: 10px 20px 10px 0;
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+}
+.tipos h3 {
+    padding: 10px 20px 10px 0;
+    margin: 0;
+    font-size: 20px;
+    color: #0088cc;
+    text-align: justify;
+}
+
+.navigation {
+    margin-bottom: 60px;
+}
+
+.navigation i {
+    color: #3a404a;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navigation i:hover {
+    color: #0088dc;
+    /* Altera a cor ao passar o mouse */
+}
+
+.navigation i:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* estilização para a seção de nivel de risco */
+
+.risco {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+    margin-top: 100px;
+    background-color: #0088dc;
+    border-radius: 20px;
+}
+
+.lado_esquerdo {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lado_esquerdo h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+.lado_esquerdo p {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.image {
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* estilização da seção "o que vc precisa saber" */
+
+
+.Precisar h1 {
+    width: max-content;
+    font-size: 30px;
+    margin-top: 100px;
+
+}
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Precisa{
+    border-radius: 10px;
+    width: 30%;
+}
+
+.container-title{
+    width: 100%;
+    justify-items: center;
+}
+
+.Precisa h3 {
+    color: #0088dc;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Precisa p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: normal;
+    text-align: justify;
+}
+.garantia {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    
+}
+th, td {
+    border: 1px solid #fff;
+    padding: 30px; 
+    font-weight: normal;
+    width: 100px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+td:first-child {
+    border-left: 4px solid #0088cc;
+
+}
+td{
+    padding: 40px;
+    border-bottom: 2px solid #c8c9ca;
+
+}
+
+.button-saibamais{
+    font-size: 16px;
+    margin-top: 40px;
+}

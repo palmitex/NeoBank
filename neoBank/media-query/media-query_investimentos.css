@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+/* Responsividade */
+
+/* Para dispositivos até 1024px (tablets e dispositivos médios) */
+@media (max-width: 1024px) {
+    body {
+        padding: 10px;
+    }
+
+    .Titulo h1 {
+        font-size: 42px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .Titulo p {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .banner {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    article {
+        width: 90%;
+        text-align: center;
+    }
+
+    .carousel {
+        justify-content: flex-start; 
+        overflow-x: scroll; 
+        padding: 0 20px; 
+    }
+
+    .carousel-container {
+        padding-left: 0; 
+    }
+
+    .tipos {
+        width: 400px; 
+        height: 500px; 
+    }
+
+    .tipos img {
+        height: 250px; 
+    }
+
+    .sub {
+        font-size: 24px;
+    }
+
+    .tipos p {
+        font-size: 16px;
+    }
+
+    .simu {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .left-section {
+        width: 100%;
+        align-items: center;
+    }
+
+    .left-section h3 {
+        font-size: 20px;
+    }
+
+    .left-section p {
+        font-size: 14px;
+    }
+
+    .simulator-image {
+        width: 70%;
+        max-width: 200px;
+        margin: 20px auto;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Para dispositivos até 768px (smartphones grandes e tablets pequenos) */
+@media (max-width: 768px) {
+    .Titulo h1 {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .Titulo p {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 26px;
+        padding-bottom: 20px;
+        text-align:start;
+        
+    }
+
+    article {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    article h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    article p {
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: justify;
+        
+    }
+
+    .carousel {
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+
+    .tipos {
+        width: 300px; 
+     
+    }
+
+    .tipos img {
+        height: 200px;
+    }
+
+    .sub {
+        font-size: 20px;
+    }
+
+    .tipos p {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .left-section h3 {
+        font-size: 18px;
+    }
+
+    .left-section p {
+        font-size: 12px;
+    }
+}
+
+/* Para dispositivos até 480px (smartphones) */
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    .Titulo h1 {
+        font-size: 30px;
+        margin: 10px auto;
+    }
+
+    .Titulo p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .cards {
+        margin: 15px 0;
+        gap: 15px;
+    }
+
+    article {
+        width: 100%;
+        text-align: center;
+    }
+    .investimentos p {
+        font-size: 18px;
+        text-align: justify;
+        padding-bottom: 10px;
+    }
+    .carousel {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center;
+        overflow-x: visible; /* Permite exibição completa dos cartões */
+        padding: 0; /* Remove padding extra */
+    }
+    .carousel-container {
+        padding-left: 980px; /* Remove padding extra */
+    }
+    .tipos {
+        height: auto; /* Ajusta altura automática */
+    }
+
+    .tipos img {
+        height: 150px; /* Reduz a altura da imagem */
+    }
+
+    .sub {
+        font-size: 18px;
+        text-align: center; /* Centraliza o título */
+    }
+
+    .tipos p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .simu {
+        flex-direction: column;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .left-section h3 {
+        font-size: 16px;
+    }
+
+    .left-section p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .left-section a {
+        text-align: center;
+    }
+    .simulator-image {
+        display: none;
+    }
+
+    .btn {
+        font-size: 12px;
+        height: 35px;
+    }
+}

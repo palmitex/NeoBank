@@ -1,0 +1,314 @@
+/* estilização geral do corpo */
+main {
+    width: 100%;
+}
+
+
+.container-prev {
+    width: 100%;
+    justify-items: center;
+}
+
+/* estilização do banner */
+.banner {
+    background-image: url(../img/banner_previdencia.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+
+}
+
+.texto-banner {
+    color: #000000;
+    width: 50%;
+    margin: 5%;
+}
+
+
+.texto-banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.texto-banner h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.texto-banner p {
+    font-size: 30px;
+}
+
+/* estilização da secao "Porque investir em Previdência Privada?" */
+.porque {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px 0;
+    color: #000000;
+    width: 75%;
+    align-items: center;
+
+}
+
+.porque span {
+    color: #0088dc;
+}
+
+.porque h1 {
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.feature {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.icone {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.feature-title {
+    font-size: 20px;
+    color: #0088dc;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.feature-description {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* seção de simular a previdencia */
+.simulador {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.simulador h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.form-container {
+    display: flex;
+    gap: 20px;
+    /* Espaçamento entre o formulário e o resultado */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.simulador form {
+    display: grid;
+    gap: 15px;
+    width: 50%;
+    /* Define que o formulário ocupa metade do espaço disponível */
+}
+
+.simulador label {
+    font-size: 16px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.simulador input,
+.simulador select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.simulador input:focus,
+.simulador select:focus {
+    border-color: #0088dc;
+}
+
+.simulador input[type="submit"],
+.simulador button {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+/* resultado da simulação*/
+.result {
+    width: 40%;
+    /* Exibe o resultado à direita com 40% da largura */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+}
+
+.result p {
+    width: 80%;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    /* Espaçamento entre o formulário e a mensagem de erro */
+}
+
+/* seção de previdencias */
+.container-previdencias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.previdencias h2 {
+    font-weight: normal;
+    font-size: 40px;
+    padding-left: 150px;
+    margin-bottom: 100px;
+}
+
+.previdencias span {
+    color: #0088dc;
+}
+
+/* tabela */
+.previdencias {
+    width: 100%;
+    background-color: #f1f6fa;
+    justify-items: center;
+    margin: 100px 0 0;
+    padding-bottom: 130px;
+}
+
+.previdencias h1 {
+    margin: 60px 0 30px;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+table thead th {
+    /* Cabeçalho azul */
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: left;
+    padding: 16px;
+    text-transform: uppercase;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: #f9f9f9;
+    /* Efeito ao passar o mouse */
+}
+
+table tbody td {
+    padding: 50px 20px;
+    font-size: 14px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+    /* Cor alternada para linhas */
+}
+
+table td:first-child {
+    font-weight: bold;
+    color: #0078d7;
+    /* Destaque para o nome */
+}
+
+
+/* responsividade */
+@media screen and (max-width: 900px) {
+    .scroll-x {
+        overflow-x: auto;
+        /* Habilita a rolagem horizontal */
+    }
+
+    .table-wrapper {
+        display: inline-block;
+        /* Permite que a tabela tenha rolagem horizontal */
+        overflow-x: auto;
+        /* Habilita a rolagem horizontal */
+        white-space: nowrap;
+        /* Impede quebra de linha dentro da tabela */
+    }
+
+    .table-wrapper table {
+        width: 100%;
+        /* Garante que a tabela use 100% do contêiner */
+        display: inline-block;
+        /* Permite que a tabela tenha rolagem horizontal */
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .simulador form,
+    .result {
+        width: 75%;
+    }
+
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .result {
+        margin-top: 30px;
+        height: 300px;
+    }
+
+    .feature {
+        width: 25%;
+    }
+}

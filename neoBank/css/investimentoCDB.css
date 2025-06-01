@@ -1,0 +1,162 @@
+/* Corpo da página */
+body {
+    background-color: #F1F6FA;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    height: 100vh;
+    justify-items: center;
+    align-content: center;
+}
+
+label{
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Título principal */
+h1::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--Blue2);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+/* Exibição do saldo */
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o formulário de investimento */
+
+.investimento-form input[type="number"]{
+    width: 95%;
+}
+
+.investimento-form select{
+    width: 100%;
+}
+
+.investimento-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #0088dc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.investimento-form:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Efeito de hover no formulário */
+}
+
+.investimento-form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+.investimento-form select, .investimento-form input[type="number"] {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.investimento-form select:focus, .investimento-form input[type="number"]:focus {
+    border-color: #0088dc; /* Mudança de cor no foco */
+    outline: none;
+}
+
+.investimento-form button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.investimento-form button[type="submit"]:hover {
+    transform: translateY(-2px); /* Efeito de elevação */
+}
+
+.investimento-form button[type="submit"]:active {
+    transform: translateY(0); /* Efeito de clique */
+}
+
+/* Tabela de investimentos ativos */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+table th {
+    color: #0088dc;
+    font-weight: bold;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+table td {
+    background-color: #fafafa;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+table tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+table button {
+    background-color: #0088dc;
+    color: white;
+    padding: 8px 16px 10px 15px ;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+table button:hover {
+    background-color: #0088dc;
+}
+
+/* Mensagem para quando não houver investimentos ativos */
+.no-investments {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}
+
+/* Estilo de mensagens de erro */
+p.error-message {
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+    

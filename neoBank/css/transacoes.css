@@ -1,0 +1,349 @@
+/*Personalização do Banner inicial*/
+.banner {
+    width: auto;
+    justify-items: center;
+}
+
+.banner-img {
+    margin-top: 40px;
+    width: 50%;
+}
+
+.banner img {
+    border-radius: 16px;
+    width: 100%;
+
+}
+
+.textos-ban {
+    text-align: center;
+    width: 50%;
+}
+
+.textos-ban h1 {
+    font-size: 60px;
+    margin: 70px 0 20px;
+
+}
+
+.textos-ban p {
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/*Personalização dos tipos de transação*/
+
+.transacoes {
+    margin: 130px 0 130px;
+}
+
+.transferir {
+    justify-content: center;
+    display: flex;
+    background-color: #F1F6FA;
+    width: 100%;
+    height: 85vh;
+    padding-top: 30px;
+}
+
+.container-transf {
+    align-items: center;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.saque {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 85vh;
+
+}
+
+.transferir-aling {
+    text-align: left;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 95%;
+}
+
+.transferir-aling h1 {
+    font-size: 20px;
+    margin: 0;
+
+}
+
+.transferir-aling h2 {
+    margin: 0;
+    font-size: 1.875rem;
+}
+
+.transferir-aling p {
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.beneficios {
+    margin: 20px 0;
+}
+
+.beneficios-aling {
+    display: flex;
+    height: max-content;
+    align-items: center;
+    margin: 0 0 10px;
+
+}
+
+.beneficios-aling h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.beneficios-aling img {
+    height: 28px;
+    width: 28px;
+}
+
+.link {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.link a {
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0088dc;
+
+}
+
+.link img {
+    padding-top: 10px;
+
+}
+
+/* imagens */
+
+.img-secao {
+    display: flex;
+    height: max-content;
+    width: 35%;
+    justify-content: flex-end;
+}
+
+.celular-aling-img {
+    width: 60%;
+}
+
+.notificacoes-img {
+    width: 100%;
+}
+
+.saque-img {
+    width: 100%;
+}
+
+.deposito-img {
+    width: 100%;
+}
+
+
+.p-session {
+    line-height: 35px;
+}
+
+.button-transf {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.button-saibamais1 a {
+    text-decoration: none;
+    color: #0088dc;
+}
+
+.transferir-aling a{
+    text-decoration: none;
+
+}
+
+.button-saibamais1 {
+    text-decoration: none;
+
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    color: #0088dc;
+    position: relative;
+    transition: 0.5s ease;
+    width: max-content;
+    text-align: left;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.button-saibamais1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background-color: #0088dc;
+    transition: 0.5s ease;
+}
+
+
+.button-saibamais1:hover::before {
+    width: 100%;
+}
+
+.button-saibamais1 img {
+    height: 15px;
+    margin-left: 10px;
+}
+
+
+/* responsividade */
+@media screen and (max-width:1150px) {
+
+    .transferir,
+    .saque {
+        height: 90vh;
+    }
+
+    .transferir-aling h2 {
+        font-size: 26px;
+    }
+
+    .beneficios-aling h3 {
+        font-size: 18px;
+    }
+
+    .transferir-aling{
+        height: 60vh;
+    }
+
+    .img-secao{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:985px) {
+    .transferir-aling p {
+        font-size: 16px;
+    }
+
+    .beneficios-aling h3, .button-saibamais1 {
+        font-size: 16px;
+    }
+
+
+    .transferir-aling h1 {
+        font-size: 18px;
+    }
+
+    .beneficios-aling img {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .transferir-aling {
+        width: 50%;
+        height: 50vh;
+    }
+
+    .textos-ban h1{
+        font-size: 50px;
+    }
+
+    .textos-ban p{
+        font-size:20px
+    }
+
+    .p-session{
+        line-height: 20px;
+    }
+
+    .transferir{
+        height: 65vh;
+    }
+}
+
+@media screen and (max-width:620px) {
+
+    .transferir,
+    .saque {
+        height: 70vh;
+    }
+
+    .button-saibamais {
+        width: 90%;
+    }
+
+    .textos-ban h1{
+        font-size: 45px;
+    }
+
+    .textos-ban p{
+        font-size:15px
+    }
+
+    .transacoes{
+        margin-top: 60px
+    }
+
+    .button-saibamais1{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:550px){
+    .img-secao{
+        display: none;
+    }
+
+    .transferir-aling{
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:500px){
+    .img-secao{
+        width: 0%;
+    }
+
+    .transferir-aling{
+        width: 100%;
+    }
+
+    .transferir, .saque{
+        height: 70vh;
+    }
+
+    .textos-ban h1{
+        font-size: 35px;
+    }
+
+    .textos-ban{
+        width: min-content;
+    }
+
+}

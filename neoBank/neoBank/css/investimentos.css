@@ -1,0 +1,233 @@
+
+/* Estilo geral do corpo */
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    color: #0088dc;
+}
+
+main {
+    margin: 130px 0;
+    width: 75%;
+    font-weight: normal;
+    justify-items: center;
+}
+
+/* seção inicial */
+.Titulo {
+    justify-items: center;
+    width: 90%;
+}
+
+.Titulo h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #000000;
+    width: 75%;
+    margin-top: 70px;
+}
+.Titulo p {
+    font-size: 20px;
+}
+
+.banner{
+    width: 700px;
+}
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* estilização da seção "por que investir pelo NeoBank */
+h2 {
+    font-size: 30px;
+    margin: 0;
+ }
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0 100px;
+}
+article {
+    width: 25%;
+    text-align:justify;
+
+}
+.icon svg {
+   width: 50px;
+    margin-bottom: 15px;
+    color: #049cfacc;
+}
+article h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #0088dc;
+}
+article p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.investimentos{
+    margin: 40px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Estilos gerais para o carrossel */
+.carousel {
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    position: relative; /* Necessário para posicionar os botões dentro do carrossel */
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease; /* Animação de transição ao mover os cards */
+    scroll-snap-type: x mandatory; /* Garante que o carrossel pare nos cards */
+    padding-left: 960px; /* Ajuste para centralizar os cards */
+}
+
+.tipos {
+    border-radius: 10px;
+    margin: 10px;
+    width: 500px; /* Aumentando a largura dos cards */
+    height: 600px; /* Aumentando a altura dos cards */ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    border: #0088cc 1px solid;
+}
+
+.tipos:hover {
+    transform: translateY(-10px);
+}
+
+.tipos img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 300px; /* Aumentando a altura da imagem */
+    object-fit: cover; /* Faz com que a imagem se ajuste sem distorcer */
+}
+
+.sub {
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #3a404a;
+}
+
+.tipos p {
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+    text-align: justify;
+}
+
+.tipos a {
+    display: block;
+    padding: 10px 0 0;
+    text-decoration: none;
+}
+
+.btn{
+    width: 100%;
+    background-color: #fff;
+    color: #0088dc;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0 0 10px 10px;
+    border: 2px solid #0088dc;
+    height: 40px;
+}
+
+.btn:hover {
+    transition: 300ms;
+    border: 0;
+    background-color: #0088dc;
+    color: #fff;
+}
+
+
+/* Estilo para a navegação com ícones */
+.navigation {
+    margin: 30px 0 60px;
+}
+
+.navigation i {
+    color: #3a404a;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navigation i:hover {
+    color: #0088dc;
+    /* Altera a cor ao passar o mouse */
+}
+
+.navigation i:not(:last-child) {
+    margin-right: 20px;
+}
+
+.simu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 470px;
+    border-radius: 20px;
+    background-color: #0088dc;
+    margin-top: 100px;
+}
+
+/* estilização do lado direito e esquerdo */
+.left-section {
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.left-section h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.left-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.left-section a{
+    text-decoration: none;
+}
+
+
+.simulator-image {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-saibamaisBranco button{
+    text-decoration: none;
+}

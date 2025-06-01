@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media (max-width: 767px) {
+    
+    .principal {
+        flex-direction: column;
+    }
+
+    /* Lado esquerdo - Ajustes */
+    .esquerdo {
+      display: none;
+    }
+    /* Lado direito - Ajustes */
+    .direito {
+        padding: 20px; 
+        width: 100%; 
+    }
+
+    .direito label {
+        font-size: 14px; 
+    }
+
+    .direito form input {
+        font-size: 14px; 
+        
+    }
+
+    .direito form p a {
+        font-size: 14px; 
+    }
+
+    .btn-azul {
+        width: 94%; 
+        height: 50px; 
+    }
+
+    footer button {
+        font-size: 14px; 
+    }
+
+    .caixinha {
+        margin-bottom: 15px; 
+        padding-right: 60px;
+    }
+    a {
+        padding-right: 100px;
+    }
+}

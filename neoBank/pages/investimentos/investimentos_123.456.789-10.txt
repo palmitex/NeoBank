@@ -1,0 +1,1 @@
+[{"nome":"CDB NeoBank P\u00f3s-fixado Liquidez Di\u00e1ria","valor":200,"data":"2024-12-04","status":"ativo","taxa_juros":0.1025}]

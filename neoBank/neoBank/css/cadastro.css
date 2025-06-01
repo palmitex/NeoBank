@@ -1,0 +1,92 @@
+/* estilização geral */
+
+main, body, section, .principal{
+    height: max-content;
+}
+
+.principal {
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+/* estilização do lado esquerdo da tela */
+.esquerdo {
+    height: 100vh;
+    flex: 1;
+    padding: 40px;
+    width: 50%;
+    background-image: url(../img/imagem.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: bottom center;
+}
+.esquerdo h1 {
+    font-size: 50px;
+    color: #fff;
+
+}
+.esquerdo a {
+    color: #0088dc;
+    text-decoration: none;
+}
+
+/* estilização do lado direito e do formulário */
+.direito {
+    align-content: center;
+    flex: 1;
+    padding: 50px 40px 20px;
+    position: relative;
+    width: 50%;
+}
+
+.direito label{
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.direito form {
+    display: flex;
+    flex-direction: column;
+}
+
+.direito form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.direito form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.direito form p a {
+    color: #0088dc;
+    text-decoration: none;
+}
+.btn-azul {
+    height: 40px;
+}
+
+.caixinha {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.caixinha input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* estilização do botão "ja possui uma conta?" */
+footer a{
+    color: #0088dc;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer button{
+    font-size: 16px;
+}

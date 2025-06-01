@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1600px) {
+    .texto-banner {
+        width: 50%;
+        text-align: start;
+    }
+    .banner{
+        background-size: cover;
+    }
+    .texto-banner h1 {
+        font-size: 36px;
+        padding-right: 30px;
+    }
+}
+/* Ajustes para notebooks menores e tablets horizontais */
+@media (max-width: 1200px) {
+    .texto-banner {
+        width: 80%;
+        text-align: start;
+    }
+    .banner{
+        background-size: cover;
+    }
+    .texto-banner h1 {
+        font-size: 36px;
+    }
+
+    .texto-banner h3,
+    .texto-banner p {
+        font-size: 18px;
+    }
+
+    .porque {
+        width: 90%;
+    }
+
+    .direita {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 48%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+/* Ajustes para tablets verticais */
+@media (max-width: 768px) {
+    .texto-banner {
+        width: 65%;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .texto-banner h1 {
+        font-size: 30px;
+    }
+
+    .texto-banner h3,
+    .texto-banner p {
+        font-size: 16px;
+    }
+
+    .porque {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .direita {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .texto-ide {
+        width: 95%;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .texto-ide-img {
+        max-width: 300px;
+        margin: 20px 0;
+    }
+
+    thead {
+        display: none;
+    }
+    table,
+    tbody,
+    tr,
+    td {
+        display: grid;
+        width: 100%;
+    }
+
+    tbody tr {
+        margin-bottom: 15px;
+        background-color: #fff;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    td {
+        padding: 10px;
+        font-size: 14px;
+        text-align: right;
+        position: relative;
+    }
+
+    td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #333;
+    }
+
+    td:last-child {
+        border-bottom: none;
+    }
+    .fgc {
+        display: none;
+    }
+}
+
+/* Ajustes para celulares */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .banner {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .texto-banner {
+        width: 50%;
+        margin: 0 auto;
+        text-align: start;
+        padding: 10px;
+    }
+
+    .texto-banner h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .texto-banner h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .texto-banner p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .porque {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .direita {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+    .box-texto-ide{
+        width: 100%;
+        text-align: center;
+    }
+    .texto-ide {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+        text-align: center;
+        height: max-content;
+    }
+
+    .texto-ide-img {
+        width: 400px;
+        margin-bottom: 15px;
+    }
+    .texto-ide a {
+        padding-left: 120px;
+    }
+    table {
+        width: 100%;
+        font-size: 12px;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+       
+    }
+
+    table thead th {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    table tbody td {
+        padding: 6px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 10px 15px;
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,167 @@
+
+/* Corpo da página */
+body {
+    background-color: #f1f6fa;
+    height: 100vh;
+
+}
+
+label{
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main{
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+/* Título principal */
+main h1 {
+    color: #000000;
+    margin: 0 0 10px;
+    width: max-content;
+    margin-bottom: 50px;
+}
+
+main h1::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--Blue2);
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+/* Estilos para o formulário de simulação */
+.formulario-simulacao {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    gap: 30px; 
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #0088dc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustando a largura do formulário e do resultado */
+.formulario-simulacao form {
+    width: 48%;
+    padding: 20px;
+}
+
+.container-result h2{
+    margin-top: 0;
+}
+
+.container-result-content{
+    width: 80%;
+}
+
+.container-result{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form input[type="number"]{
+    width: 96%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+/* Estilos para o resultado da simulação */
+.resultado-simulacao h2 {
+    color: #0088dc;
+}
+
+.resultado-simulacao p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a mensagem de erro */
+.erro {
+    background-color: #f44336;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* responsividade */
+@media screen and (max-width: 510px){
+    body{
+        height: 105vh;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .formulario-simulacao{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formulario-simulacao form {
+        width: 85%;
+        padding: 20px;
+    }
+
+    form input[type="number"]{
+        width: 93%;
+    }
+
+    .container-result{
+        width: 85%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container-result{
+        height: 350px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container-result{
+        height: 350px;
+        font-size: 14px;
+    }
+}
