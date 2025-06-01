@@ -1,0 +1,98 @@
+/* Configurações Essenciais*/ 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/*Paleta de Cores*/ 
+
+:root {
+    --Black: #010306;
+    --Blue1: #4682b4;
+    --Blue2: #0088dc;
+    --White: #ffff;
+    --Gray: #3a404a;
+    
+}
+
+/*TopNav*/ 
+
+header {
+    height:80px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--White);
+    padding-left: 80px; 
+    padding-right: 80px;
+   
+}
+
+header div{
+    display: flex;
+}
+
+
+header h1{/*futuro img*/
+    padding-right: 40px;
+    color: var(--Gray);
+
+
+}
+
+header nav ul{
+    display: flex;
+    list-style: none; 
+}
+
+header nav ul li{
+    padding-left: 15px;
+}
+
+header a{
+    color: var(--Gray);
+    font-size: 20px;
+    text-decoration: none;
+   
+ 
+}
+
+
+/*.loginButton{
+    width: 100px;
+    height: auto;
+    margin-left: 1300px;
+}*/
+
+
+/*Footer*/ 
+
+footer{
+    background-color: var(--Black);
+    width: auto;
+    height: auto;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+
+}
+
+footer div{
+    display: flex;
+    margin-top: 100px;
+    width: 500px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    background-color: wheat;
+}
+
+
